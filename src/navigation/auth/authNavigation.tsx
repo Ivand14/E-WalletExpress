@@ -1,8 +1,7 @@
-import { StyleSheet, Text, View } from 'react-native';
-
-import AuthScreen from '../../screens/RegisterScreen';
+import LoginScreen from '../../screens/LoginScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
+import RegisterScreen from '../../screens/RegisterScreen';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const authNavigation = () => {
@@ -11,7 +10,8 @@ const authNavigation = () => {
     return (
         <NavigationContainer>
             <stack.Navigator>
-                <stack.Screen name='Register' component={AuthScreen} />
+                <stack.Screen name='Register' component={RegisterScreen} />
+                <stack.Screen name='Login' component={LoginScreen}/>
             </stack.Navigator>
         </NavigationContainer>
     );
