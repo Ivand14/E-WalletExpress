@@ -3,20 +3,20 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import colors from '../constant/colors'
 
-const RegisterScreen = () => {
+const InitialScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>Register-page</Text>
+            <Text>InitialScreen</Text>
         </View>
     )
 }
 
-export default RegisterScreen
+export default InitialScreen
 
 const styles = StyleSheet.create({
-    container:{
-        backgroundColor:colors.primary,
-        flex:1,
-        width:'100%'
+    container: {
+        backgroundColor: colors.primary,
+        flex: 1,
+        width: '100%'
     }
 })

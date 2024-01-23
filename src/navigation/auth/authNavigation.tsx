@@ -4,7 +4,7 @@ import React from 'react';
 import RegisterScreen from '../../screens/RegisterScreen';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-const authNavigation = () => {
+const AuthNavigation = () => {
     const stack = createNativeStackNavigator();
 
     return (
@@ -17,6 +17,6 @@ const authNavigation = () => {
     );
 };
 
-export default authNavigation;
+export default AuthNavigation;
 
 
