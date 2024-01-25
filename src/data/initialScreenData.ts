@@ -1,8 +1,9 @@
 interface information {
-    
+    info:String,
+    img:String
 }
 
-export const data = [
+const data:information[] = [
     {
         info : "Payment Plus es una innovadora billetera virtual que facilita la compra de criptomonedas",
         img:"../../assets/Image/PaymentPlus.png"
@@ -17,3 +18,4 @@ export const data = [
     },
 ]
 
+export default data
