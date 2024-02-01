@@ -7,7 +7,7 @@ interface data {
 const appData: data[] = [
     {
         information: "The future is here, powered by AI.",
-        image: 'https://raw.githubusercontent.com/syednomishah/AI-Voice-Assistant-React-Native/main/assets/images/bot.png',
+        image: 'https://github.com/syednomishah/AI-Voice-Assistant-React-Native/blob/main/assets/images/welcome.png',
         styles: {
             height: 200,
             width: 200,
