@@ -1,12 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-import InitialScreen from './src/screens/InitialScreen';
+import MainNavigation from './src/navigation/index'
 import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <InitialScreen/>
+      <MainNavigation/>
       <StatusBar style="auto" />
     </View>
   );
@@ -15,8 +15,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });

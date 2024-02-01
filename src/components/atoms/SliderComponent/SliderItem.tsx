@@ -17,14 +17,14 @@ const { width } = Dimensions.get('screen');
 
 const SlideItem = ({ item }: { item: Props }) => {
 
-  console.log(item.image)
+
 
   return (
     <View style={styles.container}>
       
       <Image
         source={{ uri: item.image }}
-        style={styles.image}
+        style={item.styles}
         
       />
 
@@ -44,11 +44,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 10,
   },
-  image: {
-    height:400,
-    width,
-    marginBottom:20
-  },
   content: {
     flex: 0.4,
     alignItems: 'center',
@@ -56,7 +51,7 @@ const styles = StyleSheet.create({
   description: {
     fontSize: 18,
     marginBottom: 10,
-    color: colors.text,
+    color: colors.terciary,
     textAlign: 'center',
   },
 });

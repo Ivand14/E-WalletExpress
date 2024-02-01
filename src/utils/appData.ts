@@ -1,21 +1,30 @@
 interface data {
     information: string,
-    image: string
+    image: string,
+    styles: {}
 }
 
 const appData: data[] = [
     {
-        information: "SafePal es una innovadora billetera virtual que facilita la compra de criptomonedas",
-        image: 'https://cdn.dribbble.com/userupload/11963065/file/original-5ae784c68239247a9576f88945f125bb.png?resize=752x'
+        information: "The future is here, powered by AI.",
+        image: 'https://raw.githubusercontent.com/syednomishah/AI-Voice-Assistant-React-Native/main/assets/images/bot.png',
+        styles: {
+            height: 200,
+            width: 200,
+            marginBottom: 20,
+            marginTop: 150
+        }
     },
     {
-        information: "Podes adquirir tus criptomonedas de manera sencilla y segura",
-        image: 'https://cdn.dribbble.com/users/930464/screenshots/20478670/bb63188d-03ab-42b0-8e6c-fe80359ca389.png'
+        information: "You can talk to the AI ​​and the AI ​​responds by chat voice or images",
+        image: 'https://uploads.turbologo.com/uploads/design/hq_preview_image/1385749/draw_svg20210625-19886-xh0lc.svg.png',
+        styles: {
+            height: 350,
+            width: 350,
+            marginBottom: 10,
+            marginTop: 50
+        }
     }
-    // {
-    //     information: "Ofreciéndote una experiencia cómoda y eficiente para realizar transacciones ",
-    //     image: 'https://transitnet.io/wp-content/uploads/crypto-storage-coinbase-valuts-wallets.png'
-    // }
 ]
 
 export default appData;

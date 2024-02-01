@@ -1,6 +1,7 @@
 export interface Props {
     information: string,
-    image: string
+    image: string,
+    styles:{}
 }
 
 export interface viewToken {
